@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>MY BOOKMARKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <div class="background video">
+    <video autoplay muted loop playsinline id="bgVideo">
+    <source src="CYBER PUNK.mp4" type="video/mp4">
+    </video>
+    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Monoton&family=Press+Start+2P&family=Rubik+Glitch&family=Lobster&family=Orbitron&family=Pacifico&family=Shadows+Into+Light&family=Fredericka+the+Great&family=Zeyada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+    <section>
+        <h1>AREEB SIDDIQUI</h1>
+        <audio autoplay loop>
+  <source src="The Weeknd - Blinding Lights (Lyrics).mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+    <nav class="navbar">
+  <ul>
+    <li><a href="practice .html">Home</a></li>
+    <li><a target="_main" href="https://youtube.com/@hans_Animates">YouTube</a></li>
+    <li><a target="_main" href="https://www.facebook.com/profile.php?id=100089078614206&is_tour_completed=true">Facebook</a></li>
+    <li><a href="tel:+92 32711793163">Contact Me</a></li>
+    <li><a href="class data.html">class Data</a></li>
+  </ul>
+</nav>
+<br>
+<br>
+<border>
+<center>
+ <div class="font-swapper">
+  <span class="static-word">Stay</span>
+  <span id="curious-word">CURIOUS</span>
+</div></center>
+
+    </div>
+    <div>
+    <p id="paragraph"><h3>
+Hi! I'm Areeb, a passionate beginner in the world of web development and programming. I'm currently learning HTML, CSS, and JavaScript — building simple yet creative web pages as I continue to grow my skills. Alongside that, I’m also studying C++ and have covered the fundamentals up to Object-Oriented Programming (OOP). I enjoy learning new things, experimenting with code, and improving step by step every day.
+</h3>
+</p>
+</div>
+    </section>
+    
+   
+    <div>
+  <script>
+  const fonts = [
+    "'Dancing Script', cursive",
+    "'Monoton', cursive",
+    "'Press Start 2P', cursive",
+    "'Rubik Glitch', sans-serif",
+    "'Lobster', cursive",
+    "'Orbitron', sans-serif",
+    "'Pacifico', cursive",
+    "'Shadows Into Light', cursive",
+    "'Fredericka the Great', cursive",
+    "'Zeyada', cursive"
+  ];
+
+  let index = 0;
+  const word = document.getElementById("curious-word");
+
+  setInterval(() => {
+    word.style.fontFamily = fonts[index];
+    index = (index + 1) % fonts.length;
+  }, 150);
+  document.addEventListener("click", () => {
+  const audio = document.querySelector("audio");
+  audio.muted = false;
+  audio.play();
+});
+const audio = document.querySelector("audio");
+audio.volume = 0.2; // 20% volume
+
+</script>
+</border>
+</div>
+<br>
+</div>
+    <footer id="Rights">
+<hr>
+    <center><h4>All Rights Reserved To Areeb Siddiqui</h4></center>
+
+    </footer>
+</body>
+</html>

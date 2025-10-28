@@ -1,0 +1,174 @@
+        body {
+          background-image: url("21 Gorgeous Iridescent iPhone Wallpapers That Turn Your Screen into Eye Candy.jpeg");
+          display: block;
+          justify-content: center;
+          align-items: center;
+          height: 100vh; /* Optional: ensures full viewport height */
+          margin: 0;     /* Optional: removes default body margin */
+        }
+
+
+        .TABLE-STYLE 
+        {
+          display: flex;
+          justify-content: center;
+          align-items: center; /* Use this instead of align-content for single-line centering */
+          flex-wrap: wrap;     /* Only if you expect multiple rows */
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            background-color: #333;
+            justify-content: center;
+        }
+
+         .navbar li a {
+              display: block;
+              color: white;
+              text-decoration: none;
+              padding: 14px 20px;
+              font-family: 'Inter', sans-serif;
+         }
+
+.navbar li a:hover {
+  background-color: #555;
+}
+
+        
+        table, td, th
+        {
+            border: 5px solid #F8E8B0;
+            padding: 4px;
+            text-align: center;
+            border-collapse: collapse;
+            color: #E6F7FA;
+            color-scheme: initial;
+            font:300 1.4rem/1.6 'Inter',sans-serif;
+            
+        }
+
+        
+        h1
+        {
+            text-align: center;
+            text-shadow: 5cap;
+            color: #00FFFF;
+            border: 2;
+            font: 600 4.5rem/1.1 'Cinzel', serif;
+            margin-bottom: .5rem;
+            text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+
+        }
+        
+        caption
+        {
+            padding: 4px;
+            text-align: center;
+            border-collapse: collapse;
+            color: #E6F7FA;
+            font:300 1.4rem/1.6 'Inter',sans-serif;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            display: flex;
+        }
+
+        #NAVBAR
+        {
+            color: #FFD700;
+            padding: 5rem;
+            display: flexbox;
+        }
+
+        #bgVideo {
+           
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+        .text-hero {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #F8E8B0;
+  font-family: 'Cinzel', serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 4rem;
+}
+        .font-swapper {
+  font-size: 4rem;
+  text-align: center;
+  color: #F8E8B0;
+  font-family: 'Cinzel', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  gap: 20px;
+}
+
+.static-word {
+  font-family: 'Inter', sans-serif; /* Choose a clean, readable font */
+}
+
+#curious-word {
+  transition: font-family 0.3s ease;
+  color: #FFD700;
+  height: 85px;
+  width: 270px;
+  
+  text-align: center;
+}
+
+#Rights{
+    color: #FFD700;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scaleY(-1); /* Mirror vertically */
+  filter: brightness(0.7); /* Optional: darken for contrast */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 100px 20px;
+  color: white;
+}
+#paragraph
+{
+  color: #2ac9a6;
+  font-family: 'Cinzel', serif;
+
+}
+
+        
