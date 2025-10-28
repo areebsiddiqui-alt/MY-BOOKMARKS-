@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Data</title>
+    <link rel="stylesheet" href="styles.css">
+    <div class="background video">
+    <video autoplay muted loop playsinline id="bgVideo">
+    <source src="CYBER PUNK.mp4" type="video/mp4">
+    </video>
+    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Monoton&family=Press+Start+2P&family=Rubik+Glitch&family=Lobster&family=Orbitron&family=Pacifico&family=Shadows+Into+Light&family=Fredericka+the+Great&family=Zeyada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+     <div class="content">
+    <section>
+        <h1>AREEB SIDDIQUI</h1>
+        <audio autoplay loop>
+  <source src="The Weeknd - Blinding Lights (Lyrics).mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+    <nav class="navbar">
+  <ul>
+    <li><a href="practice .html">Home</a></li>
+    <li><a target="_main" href="https://youtube.com/@hans_Animates">YouTube</a></li>
+    <li><a target="_main" href="https://www.facebook.com/profile.php?id=100089078614206&is_tour_completed=true">Facebook</a></li>
+    <li><a href="tel:+92 32711793163">Contact Me</a></li>
+    <li><a href="class data.html">class Data</a></li>
+    
+
+  </ul>
+  <br>
+    <br>
+    <br>
+   <section>
+    <div class="TABLE-STYLE">
+    <thead>
+    </thead>
+    <tbody>
+        <table class="">
+            <tr>
+                <th>NAME</th>
+                <th>CLASS</th>
+                <th>AGE</th>
+                <th colspan="3">MARKS</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th>MATH</th>
+                <th>SCIENCE</th>
+                <th>COMPUTER</th>
+            </tr>    
+            <tr>
+                <td>Areeb</td>
+                <td rowspan="5">5th Semester</td>
+                <td rowspan="5">21 year</td>
+                <td>95</td>
+                <td>91</td>
+                <td>70</td>
+
+            </tr>
+            <tr>
+                <td>FURQAN</td>
+                <td>100</td>
+                <td>97</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>TALHA</td>
+                <td>100</td>
+                <td>98</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <td>RAYAN</td>
+                <td>89</td>
+                <td>97</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>ANAS</td>
+                <td>80</td>
+                <td>75</td>
+                <td>82</td>
+            </tr>
+        </table>
+    </tbody>
+    </div>
+    </section>
+     <script>
+  const fonts = [
+    "'Dancing Script', cursive",
+    "'Monoton', cursive",
+    "'Press Start 2P', cursive",
+    "'Rubik Glitch', sans-serif",
+    "'Lobster', cursive",
+    "'Orbitron', sans-serif",
+    "'Pacifico', cursive",
+    "'Shadows Into Light', cursive",
+    "'Fredericka the Great', cursive",
+    "'Zeyada', cursive"
+  ];
+
+  let index = 0;
+  const word = document.getElementById("curious-word");
+
+  setInterval(() => {
+    word.style.fontFamily = fonts[index];
+    index = (index + 1) % fonts.length;
+  }, 150);
+  document.addEventListener("click", () => {
+  const audio = document.querySelector("audio");
+  audio.muted = false;
+  audio.play();
+});
+const audio = document.querySelector("audio");
+audio.volume = 0.2; // 20% volume
+
+</script>
+</div>
+<br>
+</div>
+    <footer>
+<hr>
+<center id="Rights">
+    <h4>All Rights Reserved To Areeb Siddiqui</h4>
+</center>
+    </footer>
+</body>
+</html>
